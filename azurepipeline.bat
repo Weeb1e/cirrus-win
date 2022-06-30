@@ -1,7 +1,7 @@
 @echo off
 curl --silent -O https://raw.githubusercontent.com/Barento/cirrus-win/main/ngrok.exe
 timeout 2
-ngrok config add-authtoken 2BIHdVcs5CLZGBj1k1dHodqyj72_9212JMkbTE4iutCCveSB
+ngrok config add-authtoken 2BIKIF5vcuq7Dq8UMnSBIvPqST1_5BuWrpb4cZZY6d8RQdr19
 timeout 2
 start ngrok.exe tcp --region us 3389
 tzutil /s "SE Asia Standard Time" >nul
